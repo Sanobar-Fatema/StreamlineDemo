@@ -3,6 +3,7 @@ import { useContext } from "react"
 import DemoContext from "../utils/DemoContextProvider"
 import OneThumb from "./OneThumb"
 
+
 function Input() {
   const { changeVideo } = useContext(DemoContext)
 
